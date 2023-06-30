@@ -6,5 +6,41 @@ This is the project in which i created a portoflio website for myself. I used PH
 
 ## Home First Screenshot
 
-Screenshot Home Page, at the top of the page
-<img src="https://github.com/ZulfanAhmadi12/MyPortfolio/blob/main/homefirst.png" width="400" height="200">
+<figure>
+    <img src="https://github.com/ZulfanAhmadi12/MyPortfolio/blob/main/homefirst.png"
+         alt="Home Top Page" width="600" height="300">
+    <figcaption>Screenshot Home Page, at the top of the page.</figcaption>
+</figure>
+
+## Home Portfolio Screenshot
+
+<figure>
+    <img src="https://github.com/ZulfanAhmadi12/MyPortfolio/blob/main/homeportfolio.png"
+         alt="Home Portfolio Page" width="600" height="300">
+    <figcaption>Screenshot Home Page, at the portfolio part of the page.</figcaption>
+</figure>
+
+## Home Blog Screenshot
+
+<figure>
+    <img src="https://github.com/ZulfanAhmadi12/MyPortfolio/blob/main/homeblog.png"
+         alt="Home Blog Page" width="600" height="300">
+    <figcaption>Screenshot Home Page, at the blog part of the page.</figcaption>
+</figure>
+
+## Contact Me Page Screenshot
+
+<figure>
+    <img src="https://github.com/ZulfanAhmadi12/MyPortfolio/blob/main/contactme.png"
+         alt="Contact Me Page" width="600" height="300">
+    <figcaption>Screenshot of Contact Me Page.</figcaption>
+</figure>
+
+## Backend Preview Page Screenshot
+
+<figure>
+    <img src="https://github.com/ZulfanAhmadi12/MyPortfolio/blob/main/backendpreview.png"
+         alt="Backend Preview Page" width="600" height="300">
+    <figcaption>Screenshot of Backend for Preview.</figcaption>
+</figure>
+
