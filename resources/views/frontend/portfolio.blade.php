@@ -50,15 +50,15 @@ $allMultiImage = App\Models\MultiImage::limit(6)->get();
                         <div class="row gx-0 align-items-center">
                             <div class="col-lg-6 col-md-10">
                                 <div class="portfolio__inner__thumb">
-                                    <a href="portfolio-details.html">
+                                    <a href="{{ route('portofolio.details', $item->id) }}">
                                         <img src="{{ asset($item->portofolio_image) }}" alt="">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-10">
                                 <div class="portfolio__inner__content">
-                                    <h2 class="title"><a href="portfolio-details.html">{{ $item->portofolio_name }}</a></h2>
-                                    <h3 class="sub-title"><a href="portfolio-details.html">{{ $item->portofolio_title }}</a></h3>
+                                    <h2 class="title"><a href="{{ route('portofolio.details', $item->id) }}">{{ $item->portofolio_name }}</a></h2>
+                                    <h3 class="sub-title"><a href="{{ route('portofolio.details', $item->id) }}">{{ $item->portofolio_title }}</a></h3>
                                     <p>{!! Str::limit($item->portofolio_description, 250) !!}</p>
                                     <a href="{{ route('portofolio.details', $item->id) }}" class="link">View Project</a>
                                 </div>
